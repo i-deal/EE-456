@@ -1,6 +1,6 @@
 import os
 import torch
-from classifier import train, cnn_classifier, optimizer
+from resNet import train, cnn_classifier, optimizer
 
 checkpoint_folder_path = 'output' # the output folder for the trained model versions
 
